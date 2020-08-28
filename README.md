@@ -18,4 +18,6 @@ window表示rolling的步长，不得大于原数列长度。
 extend_window表示是否将rolling后的长度扩展至和rolling前一致，方便数据处理时对齐日期。
 假设数列a长度=6，window=4，rolling后a变为3*4矩阵，当extend_window=True时，在a前面补充一个3*4的以np.nan填充的矩阵，将a扩展为6*4，其最高维的长度和原长度一致。
 
-参考自https://github.com/bsolomon1124/pyfinance的ols.py
+参考自
+https://github.com/bsolomon1124/pyfinance
+的ols.py
