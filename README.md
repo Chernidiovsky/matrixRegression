@@ -1,3 +1,4 @@
+python3
 
 factorRegression用于批量计算ols、wls、pearson相关系数、spearman相关系数，支持rolling。
 
